@@ -47,7 +47,7 @@ public class DbHelper extends SQLiteOpenHelper {
     }
 
     //Actualizar
-    public void updateTelefono(Telefono telefonos){
+    /*public void updateTelefono(Telefono telefonos){
         ContentValues values = new ContentValues();
         values.put(COLUMN_TITULO, telefonos.getTitulo());
         values.put(COLUMN_TELEFONO, telefonos.getTelefono());
@@ -55,7 +55,7 @@ public class DbHelper extends SQLiteOpenHelper {
         db.update(TABLA_TELEFONOS, values, COLUMN_ID + "= ?", new String[] { String.valueOf(telefonos.getId())});
         db.close();
 
-    }
+    }*/
 
     //Borrar
     public void borrarTelefono(int persona_id){

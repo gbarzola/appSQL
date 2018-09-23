@@ -37,11 +37,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:height="50dp"
             android:textColor="#acacac"
             android:layout_marginBottom="15dp"
             android:gravity="top"
-            android:inputType="textMultiLine"
+            android:inputType="textPersonName"
             android:hint="Ingresa nombre"
             android:textSize="15sp"/>
 
@@ -50,19 +49,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:height="50dp"
             android:textColor="#acacac"
             android:layout_marginBottom="15dp"
             android:gravity="top"
-            android:inputType="textMultiLine"
+            android:inputType="textPersonName"
             android:hint="Ingresa telefono"
             android:textSize="15sp"/>
 
         <LinearLayout
-            android:layout_below="@+id/superior"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:orientation="horizontal"
             android:weightSum="2">
 
@@ -99,7 +95,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
-
 
 </RelativeLayout>

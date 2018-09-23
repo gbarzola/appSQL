@@ -10,7 +10,6 @@
         android:background="@android:color/transparent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:orientation="horizontal"
         android:weightSum="2">
 
@@ -45,14 +44,17 @@
             android:text="Ordenar" />
 
     </LinearLayout>
+
     <LinearLayout
+        android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rvTelefonos"
-            android:layout_centerInParent="true"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
     </LinearLayout>
 
 </LinearLayout>
